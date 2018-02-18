@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.healthprofile.com/ontologies/healthprofile.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.healthprofile.com/ontologies/healthprofile.owl">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;This ontology describes personal health profile ontology. A Person’s attributes (like gender,height, weight) can be defined. Moreover, person’s preferred food items can be expressed. Food Items can be categorized and its details can be presented. Additionally, person’s health vital signs can be shown in the form of ontology, which conforms some disease. Following are the textual definition of terms/entities/classes used in our ontology.&quot;</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Young"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mineral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate_Active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_food_Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientWithPreferences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutrients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type1Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pref_Food_Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VitalSign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calorie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodSugarRandom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type2Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbohydrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sedentary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Little_Active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetable_foodItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Young"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodSugarFasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutrientMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Old"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Child"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diabetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Old"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BloodSugarFasting"/>
+        <Class IRI="#VitalSign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodSugarRandom"/>
+        <Class IRI="#VitalSign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calorie"/>
+        <Class IRI="#Nutrients"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbohydrate"/>
+        <Class IRI="#Nutrients"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Child"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diabetes"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diabetic"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fat"/>
+        <Class IRI="#Nutrients"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_food_Item"/>
+        <Class IRI="#FoodItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Active"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infant"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Little_Active"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mineral"/>
+        <Class IRI="#Nutrients"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderate_Active"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Old"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientWithPreferences"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pref_Food_Item"/>
+        <Class IRI="#FoodItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protein"/>
+        <Class IRI="#Nutrients"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sedentary"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type1Diabetes"/>
+        <Class IRI="#Diabetes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type2Diabetes"/>
+        <Class IRI="#Diabetes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetable_foodItem"/>
+        <Class IRI="#FoodItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_Active"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Old"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Young"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin"/>
+        <Class IRI="#Nutrients"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Young"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Calorie"/>
+        <Class IRI="#Carbohydrate"/>
+        <Class IRI="#Fat"/>
+        <Class IRI="#Mineral"/>
+        <Class IRI="#Protein"/>
+        <Class IRI="#Vitamin"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
