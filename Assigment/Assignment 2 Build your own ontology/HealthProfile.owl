@@ -16,49 +16,178 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;This ontology describes personal health profile ontology. A Person’s attributes (like gender,height, weight) can be defined. Moreover, person’s preferred food items can be expressed. Food Items can be categorized and its details can be presented. Additionally, person’s health vital signs can be shown in the form of ontology, which conforms some disease. Following are the textual definition of terms/entities/classes used in our ontology.&quot;</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#Young"/>
+        <NamedIndividual IRI="#Bottle_Ground"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Meal"/>
+        <NamedIndividual IRI="#5GCarbohydrates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Young"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mineral"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Moderate_Active"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fruit_food_Item"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Vitamin"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PatientWithPreferences"/>
+        <NamedIndividual IRI="#5GFat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Nutrients"/>
+        <NamedIndividual IRI="#Vegetable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMeasureUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calorie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSpecimenDateTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#55Calories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbohydrate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mango"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPreferredBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Old"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#60Calories"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutrients"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carrot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cauli_Flower"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasSpecialDateTime"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Protein"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Infant"/>
+        <NamedIndividual IRI="#T2DM"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Type1Diabetes"/>
+        <NamedIndividual IRI="#80Calories"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVitalSignValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2GProtein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OneHalfCupRawVegMeasure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#25Calories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Active"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHeighInCms"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasVitalSignMeasureUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNurtrientUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNutrientValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tomato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Child"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Conforms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oil_and_Products"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Active"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDisease"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasVitalSignValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPreferredFoodItem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guava"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_food_Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientWithPreferences"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RawVegetable"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pref_Food_Item"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#1GFat"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#VitalSign"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FoodGroup"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Calorie"/>
+        <ObjectProperty IRI="#hasVitalSign"/>
     </Declaration>
     <Declaration>
         <Class IRI="#FoodItem"/>
@@ -70,19 +199,10 @@
         <Class IRI="#Type2Diabetes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Carbohydrate"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sedentary"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#High_Active"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Patient"/>
+        <NamedIndividual IRI="#Date"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Diabetes"/>
@@ -91,10 +211,82 @@
         <Class IRI="#Little_Active"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Milk_and_Products"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cabbage"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Vegetable_foodItem"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#hasMeasureValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diabetic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDailyActivitiesType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#15GCarbohydrates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meat_and_Protein"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDailyCaloriesNeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate_Active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutrients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type1Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#150Calories"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVitalSignMeasureUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#45Calories"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CookedVegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sedentary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T1DM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Very_Young"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Three_QuartersNumFruitMeasure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BloodSugarFasting"/>
@@ -106,16 +298,10 @@
         <Class IRI="#Disease"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Old"/>
+        <NamedIndividual IRI="#Turki"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Male"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Child"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Diabetic"/>
+        <NamedIndividual IRI="#HalfCupMangoMeasure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Very_Old"/>
@@ -124,11 +310,248 @@
         <Class IRI="#Fat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Very_High_Active"/>
+        <DataProperty IRI="#hasWeightInKgs"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Female"/>
+        <NamedIndividual IRI="#TwoNumFruitMeasure"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TwoNumTomatoMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ContainFoodItem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OneNumFruitMeasure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GlucoseLevel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mohammed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Okra"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Child"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasAge"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Diabetic"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasDisease"/>
+                <Class IRI="#Diabetes"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Female"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasGender"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Female</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fruit_food_Item"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#FoodItem"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasFoodGroup"/>
+                <NamedIndividual IRI="#Fruit"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#High_Active"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasDailyActivitiesType"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">High Active</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Infant"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasAge"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Little_Active"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasDailyActivitiesType"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Little Active</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Male"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasGender"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Male</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Moderate_Active"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasDailyActivitiesType"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Moderate Active</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Old"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasAge"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Patient"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasDisease"/>
+                <Class IRI="#Disease"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PatientWithPreferences"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPreferredFoodItem"/>
+            <Class IRI="#FoodItem"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pref_Food_Item"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPreferredBy"/>
+            <Class IRI="#Person"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sedentary"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasDailyActivitiesType"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sedentary</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_High_Active"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasDailyActivitiesType"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Very High Active</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Old"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasAge"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Very_Young"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasAge"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Young"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasAge"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#BloodSugarFasting"/>
         <Class IRI="#VitalSign"/>
@@ -257,6 +680,858 @@
         <Class IRI="#Protein"/>
         <Class IRI="#Vitamin"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Disease"/>
+        <Class IRI="#FoodGroup"/>
+        <Class IRI="#FoodItem"/>
+        <Class IRI="#NutrientMeasure"/>
+        <Class IRI="#Nutrients"/>
+        <Class IRI="#Person"/>
+        <Class IRI="#VitalSign"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Female"/>
+        <Class IRI="#Male"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#High_Active"/>
+        <Class IRI="#Little_Active"/>
+        <Class IRI="#Moderate_Active"/>
+        <Class IRI="#Sedentary"/>
+        <Class IRI="#Very_High_Active"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Old"/>
+        <Class IRI="#Very_Old"/>
+        <Class IRI="#Very_Young"/>
+        <Class IRI="#Young"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Banana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Bottle_Ground"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Cabbage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Carrot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Cauli_Flower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodGroup"/>
+        <NamedIndividual IRI="#CookedVegetable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Date"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodGroup"/>
+        <NamedIndividual IRI="#Fruit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BloodSugarFasting"/>
+        <NamedIndividual IRI="#GlucoseLevel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Guava"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutrientMeasure"/>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutrientMeasure"/>
+        <NamedIndividual IRI="#HalfCupMangoMeasure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Mango"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodGroup"/>
+        <NamedIndividual IRI="#Meat_and_Protein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodGroup"/>
+        <NamedIndividual IRI="#Milk_and_Products"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Mohammed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodGroup"/>
+        <NamedIndividual IRI="#Oil_and_Products"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Okra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutrientMeasure"/>
+        <NamedIndividual IRI="#OneHalfCupRawVegMeasure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutrientMeasure"/>
+        <NamedIndividual IRI="#OneNumFruitMeasure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Orange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodGroup"/>
+        <NamedIndividual IRI="#RawVegetable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type1Diabetes"/>
+        <NamedIndividual IRI="#T1DM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Type2Diabetes"/>
+        <NamedIndividual IRI="#T2DM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutrientMeasure"/>
+        <NamedIndividual IRI="#Three_QuartersNumFruitMeasure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodItem"/>
+        <NamedIndividual IRI="#Tomato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Turki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutrientMeasure"/>
+        <NamedIndividual IRI="#TwoNumFruitMeasure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NutrientMeasure"/>
+        <NamedIndividual IRI="#TwoNumTomatoMeasure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FoodGroup"/>
+        <NamedIndividual IRI="#Vegetable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fat"/>
+        <NamedIndividual IRI="#1GFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carbohydrate"/>
+        <NamedIndividual IRI="#15GCarbohydrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calorie"/>
+        <NamedIndividual IRI="#150Calories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Protein"/>
+        <NamedIndividual IRI="#2GProtein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calorie"/>
+        <NamedIndividual IRI="#25Calories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calorie"/>
+        <NamedIndividual IRI="#45Calories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carbohydrate"/>
+        <NamedIndividual IRI="#5GCarbohydrates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fat"/>
+        <NamedIndividual IRI="#5GFat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calorie"/>
+        <NamedIndividual IRI="#55Calories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calorie"/>
+        <NamedIndividual IRI="#60Calories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calorie"/>
+        <NamedIndividual IRI="#80Calories"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Banana"/>
+        <NamedIndividual IRI="#Fruit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Banana"/>
+        <NamedIndividual IRI="#Three_QuartersNumFruitMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Bottle_Ground"/>
+        <NamedIndividual IRI="#CookedVegetable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Bottle_Ground"/>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Cabbage"/>
+        <NamedIndividual IRI="#RawVegetable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Cabbage"/>
+        <NamedIndividual IRI="#OneHalfCupRawVegMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Carrot"/>
+        <NamedIndividual IRI="#RawVegetable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Carrot"/>
+        <NamedIndividual IRI="#OneHalfCupRawVegMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Cauli_Flower"/>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Date"/>
+        <NamedIndividual IRI="#Fruit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Date"/>
+        <NamedIndividual IRI="#TwoNumFruitMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Guava"/>
+        <NamedIndividual IRI="#Fruit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Guava"/>
+        <NamedIndividual IRI="#OneNumFruitMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+        <NamedIndividual IRI="#2GProtein"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+        <NamedIndividual IRI="#25Calories"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+        <NamedIndividual IRI="#5GCarbohydrates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#HalfCupMangoMeasure"/>
+        <NamedIndividual IRI="#15GCarbohydrates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#HalfCupMangoMeasure"/>
+        <NamedIndividual IRI="#60Calories"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Mango"/>
+        <NamedIndividual IRI="#Fruit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Mango"/>
+        <NamedIndividual IRI="#HalfCupMangoMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Okra"/>
+        <NamedIndividual IRI="#CookedVegetable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Okra"/>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#OneHalfCupRawVegMeasure"/>
+        <NamedIndividual IRI="#2GProtein"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#OneHalfCupRawVegMeasure"/>
+        <NamedIndividual IRI="#25Calories"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#OneHalfCupRawVegMeasure"/>
+        <NamedIndividual IRI="#5GCarbohydrates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#OneNumFruitMeasure"/>
+        <NamedIndividual IRI="#15GCarbohydrates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#OneNumFruitMeasure"/>
+        <NamedIndividual IRI="#60Calories"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Orange"/>
+        <NamedIndividual IRI="#Fruit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Orange"/>
+        <NamedIndividual IRI="#OneNumFruitMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#Three_QuartersNumFruitMeasure"/>
+        <NamedIndividual IRI="#15GCarbohydrates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#Three_QuartersNumFruitMeasure"/>
+        <NamedIndividual IRI="#60Calories"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <NamedIndividual IRI="#Tomato"/>
+        <NamedIndividual IRI="#RawVegetable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <NamedIndividual IRI="#Tomato"/>
+        <NamedIndividual IRI="#TwoNumTomatoMeasure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDisease"/>
+        <NamedIndividual IRI="#Turki"/>
+        <NamedIndividual IRI="#T2DM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPreferredFoodItem"/>
+        <NamedIndividual IRI="#Turki"/>
+        <NamedIndividual IRI="#Banana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPreferredFoodItem"/>
+        <NamedIndividual IRI="#Turki"/>
+        <NamedIndividual IRI="#Bottle_Ground"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPreferredFoodItem"/>
+        <NamedIndividual IRI="#Turki"/>
+        <NamedIndividual IRI="#Date"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVitalSign"/>
+        <NamedIndividual IRI="#Turki"/>
+        <NamedIndividual IRI="#GlucoseLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#TwoNumFruitMeasure"/>
+        <NamedIndividual IRI="#15GCarbohydrates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#TwoNumFruitMeasure"/>
+        <NamedIndividual IRI="#60Calories"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#TwoNumTomatoMeasure"/>
+        <NamedIndividual IRI="#2GProtein"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#TwoNumTomatoMeasure"/>
+        <NamedIndividual IRI="#25Calories"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <NamedIndividual IRI="#TwoNumTomatoMeasure"/>
+        <NamedIndividual IRI="#5GCarbohydrates"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#HalfCupCookVegMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#HalfCupMangoMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#HalfCupMangoMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#Mohammed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Mohammed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHeighInCms"/>
+        <NamedIndividual IRI="#Mohammed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Mohammed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mohammed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWeightInKgs"/>
+        <NamedIndividual IRI="#Mohammed"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#OneHalfCupRawVegMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#OneHalfCupRawVegMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#OneNumFruitMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#OneNumFruitMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#Three_QuartersNumFruitMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Number</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#Three_QuartersNumFruitMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAge"/>
+        <NamedIndividual IRI="#Turki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDailyActivitiesType"/>
+        <NamedIndividual IRI="#Turki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">High Active</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Turki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHeighInCms"/>
+        <NamedIndividual IRI="#Turki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">173</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Turki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Turki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWeightInKgs"/>
+        <NamedIndividual IRI="#Turki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">131</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#TwoNumFruitMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Number</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#TwoNumFruitMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#TwoNumTomatoMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Number</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#TwoNumTomatoMeasure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#1GFat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">grams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#1GFat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#15GCarbohydrates"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">grams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#15GCarbohydrates"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#150Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kcal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#150Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">150.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#2GProtein"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">grams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#2GProtein"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#25Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kcal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#25Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">25.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#45Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kcal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#45Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#5GCarbohydrates"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">grams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#5GCarbohydrates"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#5GFat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">grams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#5GFat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#55Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kcal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#55Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">55.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#60Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kcal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#60Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <NamedIndividual IRI="#80Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kcal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <NamedIndividual IRI="#80Calories"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">80.0</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPreferredFoodItem"/>
+        <ObjectProperty IRI="#isPreferredBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Conforms"/>
+        <Class IRI="#VitalSign"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ContainFoodItem"/>
+        <Class IRI="#Meal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDisease"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <Class IRI="#FoodItem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <Class IRI="#FoodItem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <Class IRI="#NutrientMeasure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPreferredFoodItem"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVitalSign"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conforms"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ContainFoodItem"/>
+        <Class IRI="#FoodItem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDisease"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFoodGroup"/>
+        <Class IRI="#FoodGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNutrientMeasure"/>
+        <Class IRI="#NutrientMeasure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <Class IRI="#Nutrients"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPreferredFoodItem"/>
+        <Class IRI="#FoodItem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVitalSign"/>
+        <Class IRI="#VitalSign"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAge"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDailyActivitiesType"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDailyCaloriesNeed"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDescription"/>
+        <Class IRI="#FoodItem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasGender"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHeighInCms"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <Class IRI="#NutrientMeasure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <Class IRI="#NutrientMeasure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNurtrientUnit"/>
+        <Class IRI="#Nutrients"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNutrientValue"/>
+        <Class IRI="#Nutrients"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSpecimenDateTime"/>
+        <Class IRI="#VitalSign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVitalSignMeasureUnit"/>
+        <Class IRI="#VitalSign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVitalSignValue"/>
+        <Class IRI="#VitalSign"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWeightInKgs"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAge"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDailyActivitiesType"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">High Active</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lightly Active</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Moderately</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sedentary</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Very High Active</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDailyCaloriesNeed"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasGender"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Female</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Male</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHeighInCms"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMeasureUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMeasureValue"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNurtrientUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNutrientValue"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSpecimenDateTime"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVitalSignMeasureUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVitalSignValue"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWeightInKgs"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasSpecialDateTime"/>
+        <IRI>#GlucoseLevel</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Feb. 23,2018 10:22am</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasVitalSignMeasureUnit"/>
+        <IRI>#GlucoseLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">mg/dL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasVitalSignValue"/>
+        <IRI>#GlucoseLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">180</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
