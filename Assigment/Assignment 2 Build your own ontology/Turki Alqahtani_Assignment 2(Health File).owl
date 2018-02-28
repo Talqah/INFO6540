@@ -1,0 +1,2439 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.healthfile.com/ontologies/healthfile.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.healthfile.com/ontologies/healthfile.owl">
+    <Prefix name="" IRI="http://www.healthfile.com/ontologies/healthfile.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="Health File" IRI="http://www.healthfile.com/ontologies/healthfile.owl"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The ontology is about a personal health profile and contains a hierarchy class of Diseases, Food Items, Nutrients, Person, and Personal Characteristics. The Disease class includes a subclass—diabetes—and its two forms: Type 1 and Type 2. Under the Food Item class is a list of subclasses: Fruit, Vegetables, Starch, Meat and Proteins, and Milk and Dairy. These can be used to understand the type of food a person prefers. The Nutrient class is a super class for defining various nutrient categories, including Carbohydrates, Protein, and Fats, and are used to describe a Food Item’s nutrients. The Person class includes a person’s name and identifies the diabetes type, what foods he or she prefers, and the number of nutrients consumed. The Person Characteristic is a super class involving gender, age, daily activities, and vital signs to describe the person. There are also four objective properties relationships on ontology this a which has_a, is_a, has_Netrual_Measuers, and has_vitalsign which can be used to connect between different class in the ontology. by https://www.researchgate.net/profile/Hamid_Mukhtar7/publication/283104759_An_integrated_approach_of_diet_and_exercise_recommendations_for_diabetes_patients/links/588cc833aca272fa50df527e/An-integrated-approach-of-diet-and-exercise-recommendations-for-diabetes-patients.pdf</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/healthfile0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000026"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/healthfile0000085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000050"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000062"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T1D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000018"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000037"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/healthfile0000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000009"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000048"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T2D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000080"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/healthfile0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000040"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/healthfile0000083"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000071"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/healthfile0000084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/healthfile0000051"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000041"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000042"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000006"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000023"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000006"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000032"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000006"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000090"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000007"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000024"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000007"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000028"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000007"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000007"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000041"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000007"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000042"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000007"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000090"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000024"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000028"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000041"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000042"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000090"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000083"/>
+            <Class IRI="/healthfile0000010"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000083"/>
+            <Class IRI="/healthfile0000011"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000013"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000085"/>
+            <Class IRI="/healthfile0000012"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000083"/>
+            <Class IRI="/healthfile0000010"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000008"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000070"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000071"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000072"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000076"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000080"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000081"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000085"/>
+            <Class IRI="/healthfile0000054"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000085"/>
+            <Class IRI="/healthfile0000055"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000085"/>
+            <Class IRI="/healthfile0000057"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000085"/>
+            <Class IRI="/healthfile0000064"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000086"/>
+            <Class IRI="/healthfile0000067"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000083"/>
+            <Class IRI="/healthfile0000010"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000006"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000007"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000068"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000069"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000071"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000073"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000074"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000075"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000076"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000077"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000084"/>
+            <Class IRI="/healthfile0000082"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000085"/>
+            <Class IRI="/healthfile0000051"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000085"/>
+            <Class IRI="/healthfile0000055"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000085"/>
+            <Class IRI="/healthfile0000058"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000085"/>
+            <Class IRI="/healthfile0000061"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000086"/>
+            <Class IRI="/healthfile0000066"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000055"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/healthfile0000083"/>
+                <Class IRI="/healthfile0000010"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/healthfile0000083"/>
+                <Class IRI="/healthfile0000011"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000024"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000033"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000036"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000068"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000068"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000030"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000069"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000024"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000069"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000032"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000069"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000033"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000069"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000036"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000069"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000070"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000021"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000070"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000031"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000070"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000033"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000070"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000037"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000070"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000071"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000021"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000071"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000031"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000071"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000036"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000071"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000041"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000024"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000032"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000033"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000036"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000072"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000073"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000022"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000073"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000034"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000073"/>
+        <ObjectMinCardinality cardinality="5">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000038"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000074"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000074"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000041"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000074"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000022"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000074"/>
+        <ObjectMinCardinality cardinality="5">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000037"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000074"/>
+        <ObjectMinCardinality cardinality="11">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000034"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000075"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000075"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000042"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000075"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000023"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000075"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000032"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000075"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000090"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000076"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000022"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000076"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000028"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000076"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000076"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000041"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000076"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000042"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000076"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000043"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000076"/>
+        <ObjectMinCardinality cardinality="6">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000034"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000077"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000027"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000077"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000031"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000077"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000077"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000042"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000077"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000090"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000078"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000028"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000078"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000078"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000078"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000041"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000078"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000042"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000078"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000043"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000078"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000090"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000079"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000079"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000079"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000043"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000079"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000090"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000079"/>
+        <ObjectMinCardinality cardinality="41">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000034"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000079"/>
+        <ObjectExactCardinality cardinality="5">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000022"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000080"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000080"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000080"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000041"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000080"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000043"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000080"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000090"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000080"/>
+        <ObjectMinCardinality cardinality="3">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000022"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000080"/>
+        <ObjectMinCardinality cardinality="15">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000034"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000081"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000024"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000081"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000032"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000081"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000033"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000081"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000036"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000081"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000031"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000039"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000040"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000042"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000043"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000082"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000022"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000082"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000034"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/healthfile0000082"/>
+        <ObjectMinCardinality cardinality="5">
+            <ObjectProperty IRI="/healthfile0000087"/>
+            <Class IRI="/healthfile0000034"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="/healthfile0000001"/>
+        <Class IRI="/healthfile0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000002"/>
+        <Class IRI="/healthfile0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000003"/>
+        <Class IRI="/healthfile0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000004"/>
+        <Class IRI="/healthfile0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000005"/>
+        <Class IRI="/healthfile0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000006"/>
+        <Class IRI="/healthfile0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000007"/>
+        <Class IRI="/healthfile0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000008"/>
+        <Class IRI="/healthfile0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000010"/>
+        <Class IRI="/healthfile0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000011"/>
+        <Class IRI="/healthfile0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000012"/>
+        <Class IRI="/healthfile0000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000015"/>
+        <Class IRI="/healthfile0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000016"/>
+        <Class IRI="/healthfile0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000017"/>
+        <Class IRI="/healthfile0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000018"/>
+        <Class IRI="/healthfile0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000019"/>
+        <Class IRI="/healthfile0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000020"/>
+        <Class IRI="/healthfile0000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000021"/>
+        <Class IRI="/healthfile0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000022"/>
+        <Class IRI="/healthfile0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000023"/>
+        <Class IRI="/healthfile0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000024"/>
+        <Class IRI="/healthfile0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000025"/>
+        <Class IRI="/healthfile0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000026"/>
+        <Class IRI="/healthfile0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000027"/>
+        <Class IRI="/healthfile0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000028"/>
+        <Class IRI="/healthfile0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000029"/>
+        <Class IRI="/healthfile0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000030"/>
+        <Class IRI="/healthfile0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000031"/>
+        <Class IRI="/healthfile0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000032"/>
+        <Class IRI="/healthfile0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000033"/>
+        <Class IRI="/healthfile0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000034"/>
+        <Class IRI="/healthfile0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000035"/>
+        <Class IRI="/healthfile0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000036"/>
+        <Class IRI="/healthfile0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000037"/>
+        <Class IRI="/healthfile0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000038"/>
+        <Class IRI="/healthfile0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000039"/>
+        <Class IRI="/healthfile0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000040"/>
+        <Class IRI="/healthfile0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000041"/>
+        <Class IRI="/healthfile0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000042"/>
+        <Class IRI="/healthfile0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000043"/>
+        <Class IRI="/healthfile0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000045"/>
+        <Class IRI="/healthfile0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000046"/>
+        <Class IRI="/healthfile0000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000048"/>
+        <Class IRI="/healthfile0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000049"/>
+        <Class IRI="/healthfile0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000050"/>
+        <Class IRI="/healthfile0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000051"/>
+        <Class IRI="/healthfile0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000052"/>
+        <Class IRI="/healthfile0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000053"/>
+        <Class IRI="/healthfile0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000054"/>
+        <Class IRI="/healthfile0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000055"/>
+        <Class IRI="/healthfile0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000056"/>
+        <Class IRI="/healthfile0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000057"/>
+        <Class IRI="/healthfile0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000058"/>
+        <Class IRI="/healthfile0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000059"/>
+        <Class IRI="/healthfile0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000060"/>
+        <Class IRI="/healthfile0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000061"/>
+        <Class IRI="/healthfile0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000062"/>
+        <Class IRI="/healthfile0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000063"/>
+        <Class IRI="/healthfile0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000064"/>
+        <Class IRI="/healthfile0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000065"/>
+        <Class IRI="/healthfile0000047"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000066"/>
+        <Class IRI="/healthfile0000065"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000067"/>
+        <Class IRI="/healthfile0000065"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000068"/>
+        <Class IRI="/healthfile0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000069"/>
+        <Class IRI="/healthfile0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000070"/>
+        <Class IRI="/healthfile0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000071"/>
+        <Class IRI="/healthfile0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000072"/>
+        <Class IRI="/healthfile0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000073"/>
+        <Class IRI="/healthfile0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000074"/>
+        <Class IRI="/healthfile0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000075"/>
+        <Class IRI="/healthfile0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000076"/>
+        <Class IRI="/healthfile0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000077"/>
+        <Class IRI="/healthfile0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000078"/>
+        <Class IRI="/healthfile0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000079"/>
+        <Class IRI="/healthfile0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000080"/>
+        <Class IRI="/healthfile0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000081"/>
+        <Class IRI="/healthfile0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000082"/>
+        <Class IRI="/healthfile0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/healthfile0000090"/>
+        <Class IRI="/healthfile0000019"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="/healthfile0000045"/>
+        <Class IRI="/healthfile0000046"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/healthfile0000049"/>
+        <Class IRI="/healthfile0000050"/>
+        <Class IRI="/healthfile0000051"/>
+        <Class IRI="/healthfile0000052"/>
+        <Class IRI="/healthfile0000053"/>
+        <Class IRI="/healthfile0000054"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/healthfile0000057"/>
+        <Class IRI="/healthfile0000058"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/healthfile0000060"/>
+        <Class IRI="/healthfile0000061"/>
+        <Class IRI="/healthfile0000062"/>
+        <Class IRI="/healthfile0000063"/>
+        <Class IRI="/healthfile0000064"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/healthfile0000066"/>
+        <Class IRI="/healthfile0000067"/>
+    </DisjointClasses>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/healthfile0000083"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/healthfile0000083"/>
+        <Class IRI="/healthfile0000044"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/healthfile0000084"/>
+        <Class IRI="/healthfile0000044"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/healthfile0000085"/>
+        <Class IRI="/healthfile0000044"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/healthfile0000086"/>
+        <Class IRI="/healthfile0000044"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/healthfile0000087"/>
+        <Class IRI="/healthfile0000009"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/healthfile0000083"/>
+        <Class IRI="/healthfile0000012"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/healthfile0000084"/>
+        <Class IRI="/healthfile0000009"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/healthfile0000085"/>
+        <Class IRI="/healthfile0000048"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/healthfile0000085"/>
+        <Class IRI="/healthfile0000056"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/healthfile0000085"/>
+        <Class IRI="/healthfile0000059"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/healthfile0000086"/>
+        <Class IRI="/healthfile0000065"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/healthfile0000087"/>
+        <Class IRI="/healthfile0000014"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000001</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;any product of plant growth useful to humans or animals.&quot; by http://www.dictionary.com/browse/fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000001</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fruit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000002</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;any plant whose fruit, seeds, roots, tubers, bulbs, stems, leaves, or flower parts are used as food, as the tomato, bean, beet, potato, onion, asparagus, spinach, or cauliflower.&quot; by http://www.dictionary.com/browse/vegetable?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000002</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vegetables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000003</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a white, tasteless, solid carbohydrate, (C 6 H 1 0 O 5) n, occurring in the form of minute granules in the seeds, tubers, and other parts of plants, and forming an important constituent of rice, corn, wheat, beans, potatoes, and many other vegetable foods.&quot; by http://www.dictionary.com/browse/starch?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000003</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Starch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000004</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;the flesh of animals as used for food.&quot; by http://www.dictionary.com/browse/meat?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000004</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Meat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000005</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Dairy products or milk products are a type of food produced from or containing the milk of mammals, primarily cattle, water buffaloes, goats, sheep, camels, and humans.&quot; by  https://en.wikipedia.org/wiki/Dairy_product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000005</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;creamery&quot; by http://www.thesaurus.com/browse/dairy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000005</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dairy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000006</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;any of several plants belonging to the genus Lycopersicon, of the nightshade family, native to Mexico and Central and South America, especially the widely cultivated species L. lycopersicum, bearing a mildly acid, pulpy, usually red fruit eaten raw or cooked as a vegetable.&quot; by http://www.dictionary.com/browse/tomato?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000006</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tomato</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000007</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a globose, reddish-yellow, bitter or sweet, edible citrus fruit.&quot; by http://www.dictionary.com/browse/orange?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000007</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Orange</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000008</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a plant, Daucus carota, of the parsley family, having pinnately decompound leaves and umbels of small white or yellow flowers, in its wild form a widespread, familiar weed, and in cultivation valued for its edible root.&quot; by http://www.dictionary.com/browse/carrot?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000008</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;carat, caret, carrot, karat&quot; by http://www.dictionary.com/browse/carrot?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000008</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Carrot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000009</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;This is a categorically-organized list of foods. Food is any substance[1] consumed to provide nutritional support for the body. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. &quot; by https://en.wikipedia.org/wiki/Lists_of_foods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000009</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FoodItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000010</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Type 2 diabetes occurs when the body can’t properly use the insulin that is released (called insulin insensitivity) or does not make enough insulin.&quot; by http://www.diabetes.ca/about-diabetes/types-of-diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000010</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T2D</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000010</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Type2Diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000011</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Type 1 diabetes occurs when the immune system mistakenly attacks and kills the beta cells of the pancreas.&quot; by http://www.diabetes.ca/about-diabetes/types-of-diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000011</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T1D</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000011</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Type1Diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000012</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a disorder of carbohydrate metabolism, usually occurring in genetically predisposed individuals, characterized by inadequate production or utilization of insulin and resulting in excessive amounts of glucose in the blood and urine, excessive thirst, weight loss, and in some cases progressive destruction of small blood vessels leading to such complications as infections and gangrene of the limbs or blindness.&quot; by http://www.dictionary.com/browse/diabetes?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000012</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;mellitus&quot; by http://www.dictionary.com/browse/diabetes?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000012</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000013</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a disordered or incorrectly functioning organ, part, structure, or system of the body resulting from the effect of genetic or developmental errors, infection, poisons, nutritional deficiency or imbalance, toxicity, or unfavorable environmental factors; illness; sickness; ailment.&quot;
+by http://www.dictionary.com/browse/disease?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000013</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;morbidity, complaint, derangement, distemper, indisposition, infirmity, disorder, malady.&quot; by http://www.dictionary.com/browse/disease?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000013</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000014</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;The major nutrients-protein, carbohydrate, and fat-provide the body with energy. This energy keeps your heart beating, your brain active, and your muscles working. The energy is measured in calories.&quot; by https://www.webmd.com/a-to-z-guides/tc/major-nutrients-in-food-topic-overview</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000014</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;nourishing, nutritional, nutritious, nutritive.&quot; by https://www.merriam-webster.com/thesaurus/nutrient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000014</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nutrient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000015</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;an amount of heat exactly equal to 4.1840 joules.&quot; by http://www.dictionary.com/browse/calorie?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000015</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;gram calorie, small calorie and Cal.&quot;by http://www.dictionary.com/browse/calorie?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000015</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Calorie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000016</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Carbohydrates are substances, found in certain kinds of food, that provide you with energy. Foods such as sugar and bread that contain these substances can also be referred to as carbohydrates.&quot; by https://www.collinsdictionary.com/dictionary/english/carbohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000016</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Carbohydrates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000017</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FAT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000018</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Minerals help our bodies develop and function.  They are essential for good health. Knowing about different minerals and what they do can help you to make sure you get enough of the minerals that you need.&quot;by https://medlineplus.gov/definitions/mineralsdefinitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000018</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Minerals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000019</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Proteins are organic compounds made up of building blocks called “amino acids.” There are about 20 common amino acids. Nine of them are considered “essential” because the body cannot make them, and therefore, they must be supplied by eating healthy.&quot; by http://www.healthy-eating-support.org/definition-protein.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000019</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000020</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Vitamins are nutrients your body needs to function and fight off disease. &quot; by https://study.com/academy/lesson/what-are-vitamins-definition-types-purpose-examples.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000020</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vitamin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000021</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">125Calories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000022</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">150Calories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000023</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">25Calories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000024</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">45Calories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000025</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">55Calories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000026</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">60Calories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000027</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">80Calories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000028</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10GCarbohydrates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000029</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">15GCarbohydrates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000030</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">20GCarbohydrates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000031</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">25GCarbohydrates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000032</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">5GCarbohydrates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000033</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1GFat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000034</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2GFat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000035</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2GProtein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000036</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3GProtein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000037</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">5GProtein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000038</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">7GProtein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000039</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vitamin_A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000040</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vitamin_B_12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000041</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vitamin_B_6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000042</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vitamin_C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000043</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vitamin_D</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000044</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass or more specific type of basic/root HealthFile class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000044</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000045</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000046</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Turki</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000047</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;The characteristics of a person or thing are the qualities or features that belong to them and make them recognizable.&quot; by https://www.collinsdictionary.com/dictionary/english/characteristic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000047</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PersonalCharacteristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000048</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Your age is the number of years that you have lived.&quot; by https://www.collinsdictionary.com/dictionary/english/age_1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000048</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000049</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The value of age is greater than 2 and less than and equal to 14 years (2 &lt; age &lt;=14).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000049</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Child</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000050</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The value of age is greater than 0 and less than and equal to 2 years (0 &lt;= age &lt;=2).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000050</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Infant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000051</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The value of age is greater than 30 and less than and equal to 50 years (30 &lt; age &lt;=50).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000051</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Old</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000052</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The value of age is greater than 50 years ( 50 &lt; age).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000052</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Very_Old</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000053</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The value of age is greater than 14 and less than and equal to 18 years (14 &lt; age &lt;= 18).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000053</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Very_Young</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000054</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The value of age is greater than 18 and less than and equal to 30 years (18 &lt; age &lt;=30).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000054</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Young</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000055</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Person that has some Object property is_a and that property is Type 1Diabetes or Type 2Diabetes .</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000055</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Diabetic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000056</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000057</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Person that has some property and value of is_a property is &apos;Female&apos; for the gender on personal characteristics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000057</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Female</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000058</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A PersonalCharacteristics that has some property and value of is_a property is &apos;Male&apos; for the gender on personal characteristics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000058</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Male</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000059</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Physical_Activity_Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000060</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Person that have some property is_a and value of that property is equal to &apos;Extremely_Inactive&apos; for activity level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000060</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Extremely_Inactive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000061</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Person that have some property is_a and value of that property is equal to &apos;High_Active&apos; for activity level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000061</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">High_Active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000062</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Person that has some property is_a and value of that property is equal to &apos;Moderately_Active&apos;for activity level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000062</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Moderately_Active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000063</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Person that has some property is_a and value of that property is equal to &apos;Sedentary&apos; for activity level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000063</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sedentary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000064</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Person that has some property is_a and value of that property is equal to &apos;Very_High_Active&apos; for activity level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000064</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Very_High_Active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000065</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass specific type of PersonalCharacteristics class. It describes a class for all Vitalsigns like glucose level, blood pressure,temperature, Liver Function test etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000065</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VitalSign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000066</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;A test to determine how much glucose (sugar) is in a blood sample after an overnight fast. The fasting blood glucose test is commonly used to detect diabetes mellitus.&quot; by https://www.medicinenet.com/script/main/art.asp?articlekey=3393</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000066</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;&apos;BloodSugarFasting(BSF)&apos;&apos;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000067</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;The amount of glucose (“sugar”, measured in mg/dL) in your blood changes throughout the day and night. Your levels will change depending upon when, what and how much you have eaten, and whether or not you have exercised.&quot; by https://www.virginiamason.org/WhatareNormalBloodGlucoseLevels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000067</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;&apos;BloodSugarRandom(BSR)&apos;&apos;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000068</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;thin strips of potato that have been deep-fried.&quot; by http://www.dictionary.com/browse/french-fry?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000068</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FrenchFries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000069</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a kind of food made of flour or meal that has been mixed with milk or water, made into a dough or batter, with or without yeast or other leavening agent, and baked.&quot; by http://www.dictionary.com/browse/bread?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000069</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Breads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000070</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;any of various flour-and-egg food preparations of Italian origin, made of thin, unleavened dough and produced in a variety of forms, usually served with a sauce and sometimes stuffed.&quot; by http://www.dictionary.com/browse/pasta?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000070</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pasta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000071</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;the starchy seeds or grain of an annual marsh grass, Oryza sativa, cultivated in warm climates and used for food.&quot; by http://www.dictionary.com/browse/rice?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000071</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000072</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;the flesh of a cow, steer, or bull raised and killed for its meat.&quot; by http://www.dictionary.com/browse/beef?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000072</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Beef</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000073</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a domestic fowl, Gallus domesticus, descended from various jungle fowl of southeastern Asia and developed in a number of breeds for its flesh, eggs, and feathers.&quot; by http://www.dictionary.com/browse/chicken?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000073</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chicken</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000074</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a young sheep.&quot; by http://www.dictionary.com/browse/lamb?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000074</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;sheep&quot; by http://www.dictionary.com/browse/lamb?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000074</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lamb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000075</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a creeping plant, Cucumis sativus, of the gourd family, occurring in many cultivated forms.&quot; by http://www.dictionary.com/browse/cucumber?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000075</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cucumber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000076</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Also called alligator pear. a large, usually pear-shaped fruit having green to blackish skin, a single large seed, and soft, light-green pulp, borne by the tropical American tree Persea americana and its variety P. adrymifolia, often eaten raw, especially in salads.&quot; by http://www.dictionary.com/browse/avocado?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000089"/>
+        <IRI>/healthfile0000076</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;alligator pear&quot; by http://www.dictionary.com/browse/avocado?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000076</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Avocado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000077</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a tropical plant of the genus Musa, certain species of which are cultivated for their nutritious fruit.&quot; by http://www.dictionary.com/browse/banana?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000077</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Banana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000078</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;the fruit, black or very dark purple when ripe, of certain species of the genus Rubus.&quot; by http://www.dictionary.com/browse/blackberry?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000078</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Blackberry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000079</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;the fatty portion of milk, separating as a soft whitish or yellowish solid when milk or cream is agitated or churned.&quot; by http://www.dictionary.com/browse/butter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000079</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Butter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000080</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;the curd of milk separated from the whey and prepared in many ways as a food.&quot; by http://www.dictionary.com/browse/cheese?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000080</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cheese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000081</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;an opaque white or bluish-white liquid secreted by the mammary glands of female mammals, serving for the nourishment of their young.&quot; by http://www.dictionary.com/browse/milk?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000081</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Milk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000082</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;a frozen food containing cream or milk and butterfat, sugar, flavoring, and sometimes eggs.&quot; by http://www.dictionary.com/browse/ice-cream?s=t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000082</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">IceCream</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000083</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has_a</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000084</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A FoodItem that has been preferred by some person. (Person like to take it or preferred it on some other food Item)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000084</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPreferredFoodItem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000085</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is_a</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000086</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasVitalSign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000087</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A subclass specific type of HealthFile class. It is a class to measure a food Item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000087</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has_Nutrient_Measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000088</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">It is definition of any classes, that need to define.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000088</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Definition_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <IRI>/healthfile0000089</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">It is synonym of any classes, that have another synonym.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000089</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/healthfile0000090</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1GProtein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/healthfile0000088"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The ontology is about a personal health profile.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HealthFile</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
